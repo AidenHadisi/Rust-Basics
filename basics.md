@@ -39,4 +39,13 @@ v.into_iter() //consumes v, returns owned items
 v.iter() //returns immutable referernces
 v.iter_mut() //returns mutatble references
 
+
+//or in for loop
+for _ in v
+for _ in &v
+for _ in &mut v
 ```
+
+to empty collection without consuming collection use drain()
+`v.drain(..)` empty all range
+
